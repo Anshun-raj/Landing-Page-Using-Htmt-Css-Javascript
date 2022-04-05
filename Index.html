@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Landing Page</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <section>
+        <header>
+            <a href="#" class="logo"><img src="logo.png"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="data">
+            <div class="textData">
+                <h2>It's not just a coffee<br>It's <span style="color: green; font-size: 40px;">Starbucks</span></h2>
+                <p>Lorem ipsum dolor,sit amet consectetur adipisicing elit.<br>Obcaecati libero iste,quas aspernatur eveniet culpa<br> enim quae ab maxime voluptates veritatis a dolores<br> blanditiis ipsa aliquam, sit voluptas. Nobis, nam!</p>
+                <a href="#" class="x">Learn More</a>
+            </div>
+            <img src="77325-frappuccino-drink-chocolate-starbucks-matcha-white.png" class="pic">
+            <div class="social">
+                <ul>
+                    <li><img src="facebook.png"></li>
+                    <li><img src="instagram.png"></li>
+                    <li><img src="twitter.png"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="cup">
+            <ul>
+                <li><img src="77325-frappuccino-drink-chocolate-starbucks-matcha-white.png" onclick="imgSlider('77325-frappuccino-drink-chocolate-starbucks-matcha-white.png')" id="p"></li>
+                <li><img src="62115-tea-coffee-drink-starbucks-latte-free-download-image.png" onclick="imgSlider('62115-tea-coffee-drink-starbucks-latte-free-download-image.png')" id="q"></li>
+            </ul>
+        </div>
+    </section>
+    <script type="text/javascript">
+        function imgSlider(anything) {
+            document.querySelector('.pic').src = anything;
+        }
+    </script>
+</body>
+
+</html>
